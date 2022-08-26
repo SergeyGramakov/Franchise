@@ -911,6 +911,9 @@ input:focus {
   cursor: pointer;
   box-shadow: 0 0 25px #4E54C8;
 }
+.irs-handle.type_last {
+  z-index: 1 !important;
+}
 
 .irs--flat .irs-handle>i:first-child {
   display: none !important;
