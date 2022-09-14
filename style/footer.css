@@ -47,6 +47,7 @@ footer {
   gap: 20px;
 }
 
+
 .footer__nav-item {
   max-width: 210px;
   width: 100%;
@@ -57,6 +58,11 @@ footer {
   line-height: 21px;
   color: #f2f2f2;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer__nav-item a:hover {
+  color: #8f94fb;
 }
 
 .footer__social {
@@ -75,7 +81,13 @@ footer {
   text-align: right;
   color: #f2f2f2;
   text-decoration: none;
+  transition: 0.5s;
 }
+
+.footer__email:hover {
+  color: #8f94fb;
+}
+
 .social__block {
   margin-bottom: 4vmin;
 }

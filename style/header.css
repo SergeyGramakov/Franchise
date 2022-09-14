@@ -38,6 +38,11 @@ header {
   text-align: center;
   color: #ffffff;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.header__nav-link:hover {
+  color: #8f94fb;
 }
 
 .phone__block {
@@ -54,6 +59,11 @@ header {
   line-height: 21px;
   color: #ffffff;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.phone:hover {
+  color: #8f94fb;
 }
 
 .back__call {
@@ -67,6 +77,11 @@ header {
   font-size: 16px;
   line-height: 19px;
   text-decoration: underline;
+  transition: 0.5s;
+}
+
+.back__call:hover {
+  color: #5f64d2;
 }
 
 @media screen and (max-width: 900px) {
